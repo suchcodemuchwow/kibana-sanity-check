@@ -1,0 +1,14 @@
+{
+  "name": "kibana-perf-sanity-check",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.4.1"
+  },
+  "dependencies": {
+    "@elastic/apm-rum": "^5.10.2"
+  }
+}
